@@ -33,8 +33,8 @@ nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.86);backdrop-
 .brand{display:flex;align-items:center;gap:11px;}
 .brand .mk{width:38px;height:38px;border-radius:9px;background:var(--lake);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
 .brand .mk svg{width:24px;height:24px;}
-.brand .bt{font-family:var(--display);font-weight:800;font-size:16px;color:var(--deep);line-height:1;letter-spacing:-.02em;}
-.brand .bs{font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--slate-500);margin-top:3px;}
+.brand .bt{display:block;font-family:var(--display);font-weight:800;font-size:16px;color:var(--deep);line-height:1.05;letter-spacing:-.02em;white-space:nowrap;}
+.brand .bs{display:block;font-family:var(--mono);font-size:9.5px;letter-spacing:.18em;text-transform:uppercase;color:var(--slate-500);margin-top:3px;white-space:nowrap;}
 .nav-links{display:flex;align-items:center;gap:30px;}
 .nav-links a{font-size:14.5px;font-weight:500;color:var(--slate-600);transition:color .15s;}
 .nav-links a:hover{color:var(--lake);}
