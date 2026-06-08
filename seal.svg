@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <path id="seal-top" d="M 16,100 A 84,84 0 0 1 184,100"/>
+    <path id="seal-bottom" d="M 16,100 A 84,84 0 0 0 184,100"/>
+  </defs>
+  <circle cx="100" cy="100" r="96" stroke="#ffffff" stroke-width="2.4"/>
+  <circle cx="100" cy="100" r="77" stroke="#ffffff" stroke-width="1.8"/>
+  <text fill="#ffffff" font-family="Arial, 'DejaVu Sans', sans-serif" font-size="15.5" font-weight="700" letter-spacing="2.3">
+    <textPath xlink:href="#seal-top" href="#seal-top" startOffset="50%" text-anchor="middle">LAKE OF THE OZARKS AI</textPath>
+  </text>
+  <text fill="#ffffff" font-family="Arial, 'DejaVu Sans', sans-serif" font-size="15.5" font-weight="700" letter-spacing="3.2">
+    <textPath xlink:href="#seal-bottom" href="#seal-bottom" startOffset="50%" text-anchor="middle">AUTOMATION</textPath>
+  </text>
+  <circle cx="14" cy="100" r="2.6" fill="#ffffff"/>
+  <circle cx="186" cy="100" r="2.6" fill="#ffffff"/>
+  <g stroke-linecap="round">
+    <path d="M70 124 Q100 138 130 124" stroke="#ffffff" stroke-width="2.4" opacity="0.55"/>
+    <line x1="58" y1="112" x2="142" y2="112" stroke="#ffffff" stroke-width="3"/>
+    <line x1="100" y1="112" x2="100" y2="86" stroke="#ffffff" stroke-width="3"/>
+    <line x1="100" y1="112" x2="79" y2="94" stroke="#ffffff" stroke-width="3"/>
+    <line x1="100" y1="112" x2="121" y2="94" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="100" cy="112" r="7.5" fill="#ffffff"/>
+    <circle cx="100" cy="80" r="6" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="74" cy="90" r="6" stroke="#ffffff" stroke-width="3"/>
+    <circle cx="126" cy="90" r="6" stroke="#ffffff" stroke-width="3"/>
+  </g>
+</svg>
